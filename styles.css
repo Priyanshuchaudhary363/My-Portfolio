@@ -761,13 +761,13 @@ footer
         margin-bottom: 1.5rem;
     }
 
-    .links{
+    .nav-items{
         flex-direction: column;
         align-items: center;
         gap: 0.7rem;
     }
 
-    .hireme-btn{
+    .btn-pink{
         padding: 0.4rem 0.7rem;
     }
 
@@ -776,12 +776,12 @@ footer
         padding-bottom: 4rem;
     }
 
-    .hero-heading, .hero-heading1{
+    .hero-heading, .hero-section-sub-heading{
         font-size: 25px;
         font-weight: 500;
     }
     
-    .hero-sub-heading, .hero-sub-heading1{
+    .hero-heading, .hero-section-sub-heading{
         font-size: 35px;
         line-height: 35px;
     }
@@ -790,7 +790,7 @@ footer
         font-weight: 600;
     }
     
-    .hero-para{
+    .hero-section-description{
         margin-top: 1rem;
         width: 100%;
     }
@@ -801,7 +801,7 @@ footer
         bottom: -8.6%;
     }
 
-    .hero-right{
+    .hero-section-right{
         width: 300px;
         height: 305px;
     }
