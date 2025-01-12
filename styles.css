@@ -749,6 +749,76 @@ footer
   color: #535c87;
 }
 
+/* mobile */
+@media screen and (max-width:490px) {
+    
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo{
+        margin-bottom: 1.5rem;
+    }
+
+    .links{
+        flex-direction: column;
+        align-items: center;
+        gap: 0.7rem;
+    }
+
+    .hireme-btn{
+        padding: 0.4rem 0.7rem;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+        padding-bottom: 4rem;
+    }
+
+    .hero-heading, .hero-heading1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    .hero-sub-heading, .hero-sub-heading1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    
+    .role{
+        font-weight: 600;
+    }
+    
+    .hero-para{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    
+    .faded-text{
+        left: -2%;
+        font-size: 3em;
+        bottom: -8.6%;
+    }
+
+    .hero-right{
+        width: 300px;
+        height: 305px;
+    }
+    .user-img{
+        padding: 1.5rem;
+    }
+    .user-image{
+        width: 260px;
+        height: 265px;
+    }
+    .icon-dots{
+        width: 4rem;
+    }
+    .icon img{
+        width: 2rem;
+    }
+
 .link-wrapper
 {
   display: flex;
